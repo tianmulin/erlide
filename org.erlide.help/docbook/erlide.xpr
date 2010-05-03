@@ -11,6 +11,17 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="name">
+                                    <String xml:space="preserve">Eclipse infocenter</String>
+                                </field>
+                                <field name="type">
+                                    <String xml:space="preserve">XSL</String>
+                                </field>
+                                <field name="url">
+                                    <String xml:space="preserve">reference.xml</String>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="name">
                                     <String xml:space="preserve">Docbook HTML modified</String>
                                 </field>
                                 <field name="type">
@@ -725,7 +736,7 @@
                                     <String xml:space="preserve"></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String xml:space="preserve">${frameworks}/docbook/xsl/eclipse/eclipse.xsl</String>
+                                    <String xml:space="preserve">file:/C:/Apps/erlide/org.erlide.help/my_eclipse.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String xml:space="preserve">${pdu}/erlide.xml</String>
@@ -804,6 +815,14 @@
                                     </field>
                                     <field name="value">
                                     <String xml:space="preserve">yes</String>
+                                    </field>
+                                    </transformationParameter>
+                                    <transformationParameter>
+                                    <field name="name">
+                                    <String xml:space="preserve">create.plugin.xml</String>
+                                    </field>
+                                    <field name="value">
+                                    <String xml:space="preserve">0</String>
                                     </field>
                                     </transformationParameter>
                                     <transformationParameter>
